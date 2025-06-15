@@ -1,0 +1,27 @@
+{
+  "name": "byterose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:integration": "jest tests/integration",
+    "test:unit": "jest tests/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marksadykov/ByteRose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marksadykov/ByteRose/issues"
+  },
+  "homepage": "https://github.com/marksadykov/ByteRose#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

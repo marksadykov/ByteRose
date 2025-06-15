@@ -1,0 +1,119 @@
+# Зависимости Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Файлы сборки и дистрибутивы
+dist/
+build/
+*.tgz
+*.tar.gz
+
+# Отчеты о покрытии тестов
+coverage/
+*.lcov
+.nyc_output/
+
+# Временные файлы Jest
+.jest/
+jest-coverage/
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Кэш
+.cache/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Файлы операционной системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+
+# Переменные окружения и конфиденциальные данные
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+config/secrets.json
+*.pem
+*.key
+*.crt
+
+# Временные файлы разработки
+tmp/
+temp/
+.tmp/
+*.tmp
+*.temp
+
+# Файлы профилирования производительности
+profile/
+.profile/
+*.prof
+
+# Документация (если генерируется автоматически)
+docs/generated/
+*.pdf
+
+# Файлы бэкапов
+*.bak
+*.backup
+*.old
+*~
+
+# ESLint кэш
+.eslintcache
+
+# Prettier кэш
+.prettiercache
+
+# TypeScript (на случай будущего расширения)
+*.tsbuildinfo
+
+# Архивы
+*.zip
+*.rar
+*.7z
+
+# Файлы тестирования производительности
+benchmark-results/
+performance-logs/
+
+# Пользовательские скрипты и заметки
+notes.txt
+todo.txt
+scratch/
+playground/
+
+# Результаты анализа безопасности
+security-audit/
+vulnerability-report.*
